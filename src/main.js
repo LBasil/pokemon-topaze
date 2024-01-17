@@ -1,6 +1,5 @@
-import Phaser from "./lib/phaser";
+import Phaser from './lib/phaser.js';
 
 const game = new Phaser.Game({
-    parent: 'game-container',
+  parent: 'game-container',
 });
-
