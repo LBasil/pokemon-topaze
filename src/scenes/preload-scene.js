@@ -48,12 +48,12 @@ export class PreloadScene extends Phaser.Scene {
 
     // monster assets
     this.load.image(
-      MONSTER_ASSET_KEYS.CARNODUSK,
-      `${monsterTamerAssetPath}/monsters/carnodusk.png`
+      MONSTER_ASSET_KEYS.CHARIZARD,
+      `${monsterTamerAssetPath}/monsters/charizard.png`
     );
     this.load.image(
-      MONSTER_ASSET_KEYS.IGUANIGNITE,
-      `${monsterTamerAssetPath}/monsters/iguanignite.png`
+      MONSTER_ASSET_KEYS.MOLTRES,
+      `${monsterTamerAssetPath}/monsters/sulfura.png`
     );
   }
 

@@ -23,11 +23,11 @@ export class BattleScene extends Phaser.Scene {
     this.add.image(0, 0, BATTLE_BACKGROUND_ASSET_KEYS.FOREST).setOrigin(0);
 
     // render out the player and enemy monsters
-    this.add.image(768, 144, MONSTER_ASSET_KEYS.CARNODUSK, 0);
-    this.add.image(256, 316, MONSTER_ASSET_KEYS.IGUANIGNITE, 0).setFlipX(true);
+    this.add.image(768, 144, MONSTER_ASSET_KEYS.CHARIZARD, 0);
+    this.add.image(256, 316, MONSTER_ASSET_KEYS.MOLTRES, 0).setFlipX(true);
 
     // render out the player health bar
-    const playerMonsterName = this.add.text(30, 20, MONSTER_ASSET_KEYS.IGUANIGNITE, {
+    const playerMonsterName = this.add.text(30, 20, MONSTER_ASSET_KEYS.MOLTRES, {
       color: '#7E3D3F',
       fontSize: '32px',
     });
@@ -53,7 +53,7 @@ export class BattleScene extends Phaser.Scene {
     ]);
 
     // render out the enemy health bar
-    const enemyMonsterName = this.add.text(30, 20, MONSTER_ASSET_KEYS.CARNODUSK, {
+    const enemyMonsterName = this.add.text(30, 20, MONSTER_ASSET_KEYS.CHARIZARD, {
       color: '#7E3D3F',
       fontSize: '32px',
     });

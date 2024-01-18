@@ -53,7 +53,7 @@ export class BattleMenu {
     this.#battleTextGameObjectLine2 = this.#scene.add.text(
       20,
       512,
-      `${MONSTER_ASSET_KEYS.IGUANIGNITE} do next?`,
+      `${MONSTER_ASSET_KEYS.MOLTRES} do next?`,
       battleUiTextStyle
     );
 
