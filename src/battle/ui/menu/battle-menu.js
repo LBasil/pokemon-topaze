@@ -1,4 +1,4 @@
-import { MONSTER_ASSET_KEYS } from '../../../assets/asset-keys.js';
+import { MONSTER_ASSET_KEYS } from '../../../../assets/asset-keys.js';
 
 const BATTLE_MENU_OPTIONS = Object.freeze({
   FIGHT: 'FIGHT',
